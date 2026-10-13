@@ -1,0 +1,28 @@
+#include <windows.h>
+#include "build_config.h"
+1 ICON "battery.ico"
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION LOGIBATTERY_FILE_VERSION
+ PRODUCTVERSION LOGIBATTERY_FILE_VERSION
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040904B0"
+  BEGIN
+   VALUE "FileDescription", "LogiBattery - native Windows tray monitor\0"
+   VALUE "FileVersion", LOGIBATTERY_VERSION "\0"
+   VALUE "ProductName", "LogiBattery\0"
+   VALUE "ProductVersion", LOGIBATTERY_VERSION "\0"
+   VALUE "OriginalFilename", "LogiBattery.exe\0"
+   VALUE "LegalCopyright", "GPL-3.0-or-later; see accompanying source and license\0"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x409, 1200
+ END
+END
