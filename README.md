@@ -16,6 +16,7 @@ for devices and settings. The icon may initially appear under hidden icons.
 | --- | --- | --- |
 | Logitech G700s | C531 wireless receiver | Full / Good / Low / Critical |
 | Logitech ERGO M575 | Unifying receiver | Percentage |
+<img width="866" height="389" alt="logibattery" src="https://github.com/user-attachments/assets/4c74a117-97ab-4aaa-9d23-a0bfc6d41033" />
 
 Other HID++ devices may work but are unverified. The app shows reported levels
 or voltage when no percentage is available. Bluetooth and wired G700s are
